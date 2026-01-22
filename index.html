@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Fanchini - Professor de Matemática</title>
+  <link rel="icon" type="image/png" href="./assets/imgs/FavICON.png" />
+  <link rel="apple-touch-icon" href="./assets/imgs/FavICON.png" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- HEADER TRANSPARENTE -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="./assets/imgs/FavICON.png" alt="Gabriel Fanchini" class="navbar-logo" />
+      <span class="brand-text">G.Fanchini</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#metodo">Método</a></li>
+        <li class="nav-item"><a class="nav-link" href="#particulares">Particulares</a></li>
+        <li class="nav-item"><a class="nav-link" href="#curso">Curso</a></li>
+        <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item ms-lg-3"><a class="nav-link nav-cta" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero d-flex align-items-center">
+  <canvas id="particles"></canvas>
+  <div class="hero-gradient-overlay"></div>
+
+  <div class="container position-relative">
+    <div class="row align-items-center">
+
+      <!-- TEXTO À ESQUERDA -->
+      <div class="col-lg-6 col-md-7 col-12 text-start hero-content">
+        <div class="hero-badge fade-in">
+          <span class="badge-text">PROFESSOR DE MATEMÁTICA</span>
+        </div>
+        <h1 class="fw-bold hero-title fade-in-delay-1">
+          <span class="hero-greeting">Olá, sou</span><br>
+          <span class="hero-first-name">Gabriel</span>
+          <span class="hero-last-name">Fanchini</span>
+        </h1>
+        <p class="mt-4 hero-description fade-in-delay-2">
+          Meu compromisso é ajudar pais a ensinarem matemática a seus filhos com uma abordagem personalizada, unindo tradição, rigor matemático e virtudes cristãs.
+        </p>
+
+        <div class="hero-cta-wrapper mt-5 fade-in-delay-3">
+          <a href="#contato" class="btn btn-primary hero-cta">
+            <span>Entrar em contato</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#sobre" class="btn btn-outline-hero">
+            <span>Conhecer mais</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- FOTO À DIREITA -->
+      <div class="col-lg-6 col-md-5 col-12 text-center mt-5 mt-md-0 hero-image-wrapper fade-in-delay-2">
+        <div class="hero-image-container">
+          <img 
+            src="./assets/imgs/Gabriel FOTO PESSOAL 1.jpg" 
+            alt="Foto do professor Gabriel Fanchini"
+            class="hero-image"
+          />
+          <div class="hero-image-glow"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator">
+    <div class="scroll-mouse">
+      <div class="scroll-wheel"></div>
+    </div>
+    <span class="scroll-text">Role para explorar</span>
+  </div>
+</section>
+
+
+
+<!-- SOBRE MIM -->
+<section class="container py-5" id="sobre">
+
+  <!-- LINHA DECORATIVA -->
+  <div class="section-divider"></div>
+
+  <div class="row justify-content-center fade-in">
+    <div class="col-lg-10 col-md-11">
+
+      <!-- TÍTULO -->
+      <div class="text-center mb-5">
+        <h2 class="section-title">Sobre mim</h2>
+      </div>
+
+      <!-- CONTEÚDO PRINCIPAL -->
+      <div class="row align-items-center">
+        
+        <!-- TEXTO PRINCIPAL -->
+        <div class="col-lg-8 col-md-7 mb-4 mb-md-0">
+          <div class="about-content">
+            <p class="lead-text">
+              Professor de Matemática e educador. Atua na área há <strong>uma década</strong>, dedicando-se a formar alunos e famílias por meio de uma abordagem inspirada na tradição, no rigor matemático e no cultivo das virtudes cristãs.
+            </p>
+
+            <p class="body-text mt-4">
+              Estudioso de <strong>história</strong>, <strong>pedagogia</strong> e <strong>doutrina católica</strong>. Seu propósito é simples e ambicioso: colaborar para a restauração de uma educação que forme pessoas completas — na razão, na imaginação e no coração.
+            </p>
+          </div>
+        </div>
+
+        <!-- DESTAQUES VISUAIS -->
+        <div class="col-lg-4 col-md-5">
+          <div class="about-highlights">
+            
+            <!-- EXPERIÊNCIA -->
+            <div class="highlight-item">
+              <div class="highlight-number">10+</div>
+              <div class="highlight-label">Anos de experiência</div>
+            </div>
+
+            <!-- ÁREAS DE ESTUDO -->
+            <div class="highlight-item mt-3">
+              <div class="highlight-tags">
+                <span class="tag">História</span>
+                <span class="tag">Pedagogia</span>
+                <span class="tag">Doutrina Católica</span>
+              </div>
+            </div>
+
+            <!-- MISSÃO -->
+            <div class="highlight-item mt-4">
+              <div class="mission-box">
+                <p class="mission-text">
+                  Formar pessoas completas:<br>
+                  <span class="mission-pillars">Razão • Imaginação • Coração</span>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PILARES DA ABORDAGEM -->
+      <div class="row mt-5 pt-5">
+        <div class="col-12">
+          <div class="text-center mb-5">
+            <h3 class="pillars-title">Pilares da minha abordagem</h3>
+            <p class="pillars-subtitle">Três fundamentos que guiam cada aula e formam alunos completos</p>
+          </div>
+          
+          <div class="row justify-content-center g-4">
+            
+            <!-- PILAR 1: TRADIÇÃO -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="pillar-card">
+                <div class="pillar-icon-wrapper">
+                  <svg class="pillar-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="pillar-number">01</div>
+                <h4 class="pillar-name">Tradição</h4>
+                <p class="pillar-desc">
+                  Respeito aos métodos clássicos de ensino que formaram grandes mentes ao longo da história. 
+                  A sabedoria acumulada de séculos de educação humanística guia cada lição.
+                </p>
+                <div class="pillar-features">
+                  <span class="feature-tag">Métodos clássicos</span>
+                  <span class="feature-tag">Sabedoria histórica</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- PILAR 2: RIGOR MATEMÁTICO -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="pillar-card pillar-featured">
+                <div class="pillar-badge">Diferencial</div>
+                <div class="pillar-icon-wrapper">
+                  <svg class="pillar-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 3L5 21L12 18L19 21L15 3L12 6L9 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 6V18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="pillar-number">02</div>
+                <h4 class="pillar-name">Rigor Matemático</h4>
+                <p class="pillar-desc">
+                  Precisão, clareza e profundidade no ensino dos conceitos matemáticos fundamentais. 
+                  Cada demonstração é cuidadosamente construída para desenvolver o raciocínio lógico.
+                </p>
+                <div class="pillar-features">
+                  <span class="feature-tag">Precisão técnica</span>
+                  <span class="feature-tag">Raciocínio lógico</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- PILAR 3: VIRTUDES CRISTÃS -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="pillar-card">
+                <div class="pillar-icon-wrapper">
+                  <svg class="pillar-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="pillar-number">03</div>
+                <h4 class="pillar-name">Virtudes Cristãs</h4>
+                <p class="pillar-desc">
+                  Formação integral que desenvolve o caráter e os valores essenciais para a vida. 
+                  A matemática torna-se veículo para cultivar sabedoria, paciência e excelência.
+                </p>
+                <div class="pillar-features">
+                  <span class="feature-tag">Formação integral</span>
+                  <span class="feature-tag">Valores essenciais</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ASSINATURA -->
+      <div class="text-center mt-5 fade-in-delay">
+        <div class="signature-wrapper">
+          <p class="signature-label">Gabriel Fanchini</p>
+          <div class="signature-line"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- MÉTODO DE ENSINO -->
+<section class="container py-5" id="metodo">
+  <div class="section-divider"></div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-11">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Método RED</h2>
+        <p class="method-subtitle">Uma metodologia estruturada em três etapas fundamentais para o aprendizado profundo</p>
+      </div>
+
+      <!-- Introdução -->
+      <div class="method-intro mb-5">
+        <p class="method-intro-text">
+          O método RED é uma abordagem pedagógica estruturada em três passos essenciais que garantem 
+          um aprendizado sólido e profundo. Cada etapa é cuidadosamente planejada e ocorre após as aulas 
+          de conteúdo, sempre priorizando o princípio da <strong>memória</strong>, utilizando a 
+          <strong>imaginação</strong> como ferramenta inspiradora.
+        </p>
+      </div>
+
+      <!-- Diagrama Visual do Método RED -->
+      <div class="red-flow-diagram mb-5">
+        <div class="flow-container">
+          <!-- Aula de Conteúdo -->
+          <div class="flow-step flow-start">
+            <div class="flow-icon-wrapper">
+              <svg class="flow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="flow-label">Aula de Conteúdo</div>
+          </div>
+
+          <!-- Seta -->
+          <div class="flow-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Passo 1: Reflexão -->
+          <div class="flow-step flow-red">
+            <div class="flow-step-number">R</div>
+            <div class="flow-step-label">Reflexão</div>
+            <div class="flow-step-desc">Perguntas estratégicas</div>
+          </div>
+
+          <!-- Seta -->
+          <div class="flow-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Passo 2: Exercícios -->
+          <div class="flow-step flow-red">
+            <div class="flow-step-number">E</div>
+            <div class="flow-step-label">Exercícios</div>
+            <div class="flow-step-desc">Prática progressiva</div>
+          </div>
+
+          <!-- Seta -->
+          <div class="flow-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Passo 3: Demonstração -->
+          <div class="flow-step flow-red">
+            <div class="flow-step-number">D</div>
+            <div class="flow-step-label">Demonstração</div>
+            <div class="flow-step-desc">Aplicação avançada</div>
+          </div>
+        </div>
+        <div class="flow-principle">
+          <div class="principle-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Baseado na Memória</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Os 3 Passos do Método RED -->
+      <div class="red-method-steps">
+        
+        <!-- Passo 1: Reflexão -->
+        <div class="red-step-card">
+          <div class="red-step-visual">
+            <div class="step-illustration">
+              <svg class="step-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Cabeça pensando -->
+                <circle cx="100" cy="80" r="35" stroke="currentColor" stroke-width="3" fill="rgba(99, 107, 47, 0.1)"/>
+                <!-- Pontos de interrogação -->
+                <path d="M70 100 Q70 90 80 90 Q90 90 90 100 Q90 110 80 110" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <circle cx="80" cy="120" r="3" fill="currentColor"/>
+                <path d="M130 100 Q130 90 140 90 Q150 90 150 100 Q150 110 140 110" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <circle cx="140" cy="120" r="3" fill="currentColor"/>
+                <!-- Linhas de pensamento -->
+                <path d="M60 60 Q50 50 40 40" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                <path d="M140 60 Q150 50 160 40" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                <path d="M100 45 Q100 35 100 25" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              </svg>
+            </div>
+          </div>
+          <div class="red-step-header">
+            <div class="red-step-number">01</div>
+            <div class="red-step-title-wrapper">
+              <h3 class="red-step-title">Reflexão</h3>
+              <p class="red-step-subtitle">Entendimento profundo através da contemplação</p>
+            </div>
+          </div>
+          <div class="red-step-content">
+            <p class="red-step-description">
+              Após cada aula de conteúdo, o aluno é conduzido a refletir sobre o que foi estudado através 
+              de perguntas estratégicas que aprofundam o entendimento dos principais pontos abordados.
+            </p>
+            <div class="red-step-modes">
+              <div class="red-mode-item">
+                <div class="mode-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="mode-content">
+                  <h4 class="mode-title">Reflexão Passiva</h4>
+                  <p class="mode-desc">O professor conduz o aluno através de perguntas cuidadosamente elaboradas, guiando-o até o entendimento mais profundo possível do conteúdo estudado.</p>
+                </div>
+              </div>
+              <div class="red-mode-item">
+                <div class="mode-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="mode-content">
+                  <h4 class="mode-title">Reflexão Ativa</h4>
+                  <p class="mode-desc">O próprio aluno se faz perguntas, desenvolvendo autonomia e capacidade de questionamento até alcançar o entendimento mais profundo possível.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Passo 2: Exercícios -->
+        <div class="red-step-card">
+          <div class="red-step-visual">
+            <div class="step-illustration">
+              <svg class="step-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Escada progressiva -->
+                <rect x="40" y="160" width="120" height="8" rx="4" fill="currentColor" opacity="0.3"/>
+                <rect x="50" y="140" width="100" height="8" rx="4" fill="currentColor" opacity="0.5"/>
+                <rect x="60" y="120" width="80" height="8" rx="4" fill="currentColor" opacity="0.7"/>
+                <rect x="70" y="100" width="60" height="8" rx="4" fill="currentColor"/>
+                <!-- Números nos degraus -->
+                <text x="75" y="107" fill="currentColor" font-size="12" font-weight="bold">1</text>
+                <text x="65" y="127" fill="currentColor" font-size="12" font-weight="bold">2</text>
+                <text x="55" y="147" fill="currentColor" font-size="12" font-weight="bold">3</text>
+                <!-- Estrela no topo -->
+                <path d="M100 60 L105 75 L120 75 L108 85 L113 100 L100 90 L87 100 L92 85 L80 75 L95 75 Z" fill="currentColor" opacity="0.8"/>
+              </svg>
+            </div>
+          </div>
+          <div class="red-step-header">
+            <div class="red-step-number">02</div>
+            <div class="red-step-title-wrapper">
+              <h3 class="red-step-title">Exercícios</h3>
+              <p class="red-step-subtitle">Prática ordenada e formativa</p>
+            </div>
+          </div>
+          <div class="red-step-content">
+            <p class="red-step-description">
+              Exercícios elaborados especialmente pelo professor, contendo histórias que ensinam virtudes 
+              cristãs (cardeais e teologais), organizados de forma progressiva e com diferentes níveis 
+              de complexidade.
+            </p>
+            <div class="red-step-features">
+              <div class="feature-group">
+                <h4 class="feature-group-title">Níveis de Dificuldade</h4>
+                <div class="feature-tags">
+                  <span class="difficulty-tag difficulty-easy">Fácil</span>
+                  <span class="difficulty-tag difficulty-intermediate">Intermediário</span>
+                  <span class="difficulty-tag difficulty-hard">Difícil</span>
+                </div>
+              </div>
+              <div class="feature-group">
+                <h4 class="feature-group-title">Tipos de Exercícios</h4>
+                <div class="exercise-types">
+                  <div class="exercise-type-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Conteudistas</span>
+                  </div>
+                  <div class="exercise-type-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Interpretativos</span>
+                  </div>
+                  <div class="exercise-type-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Demonstrativos</span>
+                  </div>
+                </div>
+                <p class="exercise-type-note">
+                  Os exercícios demonstrativos preparam o aluno para a etapa de demonstração, 
+                  introduzindo conceitos de forma gradual.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Passo 3: Demonstração -->
+        <div class="red-step-card">
+          <div class="red-step-visual">
+            <div class="step-illustration">
+              <svg class="step-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Lâmpada (ideia) -->
+                <path d="M100 50 Q80 50 70 70 Q70 90 80 100 L85 120 L95 120 L100 100 Q110 90 110 70 Q110 50 100 50" stroke="currentColor" stroke-width="3" fill="rgba(99, 107, 47, 0.15)"/>
+                <!-- Base da lâmpada -->
+                <rect x="90" y="120" width="20" height="15" rx="2" fill="currentColor" opacity="0.3"/>
+                <!-- Raios de luz -->
+                <path d="M100 50 L85 35 M100 50 L115 35 M100 50 L100 30" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                <path d="M70 70 L55 60 M110 70 L125 60" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+                <!-- Símbolo de verificação -->
+                <path d="M100 85 L95 90 L105 90" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+          </div>
+          <div class="red-step-header">
+            <div class="red-step-number">03</div>
+            <div class="red-step-title-wrapper">
+              <h3 class="red-step-title">Demonstração</h3>
+              <p class="red-step-subtitle">A etapa mais avançada do aprendizado</p>
+            </div>
+          </div>
+          <div class="red-step-content">
+            <p class="red-step-description">
+              Etapa mais avançada em que o aluno demonstra teoremas ou ideias sobre o conteúdo estudado. 
+              Requer preparação adequada e maturidade intelectual apropriada.
+            </p>
+            <div class="red-step-requirements">
+              <div class="requirement-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Preparação cuidadosa e progressiva</span>
+              </div>
+              <div class="requirement-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Idade e maturidade intelectual adequadas</span>
+              </div>
+              <div class="requirement-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Base sólida nas etapas anteriores</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Princípio Fundamental -->
+      <div class="method-principle mt-5">
+        <div class="principle-card">
+          <div class="principle-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="principle-content">
+            <h3 class="principle-title">Princípio Fundamental</h3>
+            <p class="principle-text">
+              O método RED prioriza o princípio da <strong>memória</strong> como base do aprendizado. 
+              A <strong>imaginação</strong> é utilizada como ferramenta inspiradora, servindo para 
+              despertar o interesse e facilitar a compreensão, mas sempre em função da consolidação 
+              do conhecimento na memória.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Princípios Adicionais -->
+      <div class="method-additional-principles mt-5">
+        <h3 class="additional-principles-title">Princípios Pedagógicos Complementares</h3>
+        <p class="additional-principles-subtitle">
+          O método RED também incorpora outros princípios pedagógicos reconhecidos internacionalmente:
+        </p>
+        <div class="principles-grid">
+          <div class="principle-item">
+            <h4 class="principle-item-title">Método de Singapura</h4>
+            <p class="principle-item-desc">Abordagem visual e concreta para o ensino de matemática</p>
+          </div>
+          <div class="principle-item">
+            <h4 class="principle-item-title">Ensino Pictórico</h4>
+            <p class="principle-item-desc">Método Concreto Pictórico Abstrato (CPA) para desenvolvimento gradual</p>
+          </div>
+          <div class="principle-item">
+            <h4 class="principle-item-title">Heurística</h4>
+            <p class="principle-item-desc">Descoberta guiada e resolução de problemas através de estratégias</p>
+          </div>
+          <div class="principle-item">
+            <h4 class="principle-item-title">Metodologia Socrática</h4>
+            <p class="principle-item-desc">Perguntas estratégicas que conduzem o aluno às respostas e ao conhecimento</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vídeo Explicativo -->
+      <div class="method-video-section mt-5">
+        <div class="video-wrapper-card">
+          <div class="video-header">
+            <div class="video-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="video-header-content">
+              <h3 class="video-title">Ainda tem dúvidas sobre o Método RED?</h3>
+              <p class="video-subtitle">Assista ao vídeo explicativo para entender melhor como funciona cada etapa</p>
+            </div>
+          </div>
+          <div class="video-container">
+            <div class="video-responsive-wrapper">
+              <iframe 
+                class="youtube-video"
+                src="https://www.youtube.com/embed/7rIb3a1_HYA"
+                title="Método RED - Explicação Completa"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- AULAS PARTICULARES -->
+<section class="container py-5" id="particulares">
+  <div class="section-divider"></div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Aulas Particulares</h2>
+        <p class="private-subtitle">Atendimento individualizado para resultados excepcionais</p>
+      </div>
+
+      <div class="row align-items-center g-5">
+        
+        <!-- Conteúdo Textual -->
+        <div class="col-lg-6">
+          <div class="private-content">
+            <h3 class="private-section-title">Por que escolher aulas particulares?</h3>
+            <p class="private-text">
+              O atendimento individualizado permite um acompanhamento personalizado, onde cada 
+              conceito é trabalhado no ritmo ideal do aluno, garantindo compreensão profunda e 
+              sólida base matemática.
+            </p>
+
+            <div class="private-benefits mt-4">
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22 4L12 14.01l-3-3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="benefit-content">
+                  <h4 class="benefit-title">Atenção Total</h4>
+                  <p class="benefit-desc">Foco exclusivo nas necessidades e dificuldades do aluno</p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 20h9" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="benefit-content">
+                  <h4 class="benefit-title">Planejamento Personalizado</h4>
+                  <p class="benefit-desc">Cronograma adaptado aos objetivos e disponibilidade</p>
+                </div>
+              </div>
+
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="benefit-content">
+                  <h4 class="benefit-title">Resultados Rápidos</h4>
+                  <p class="benefit-desc">Progresso acelerado com acompanhamento constante</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card de Destaque -->
+        <div class="col-lg-6">
+          <div class="private-highlight-card">
+            <div class="highlight-card-header">
+              <h3 class="highlight-card-title">Modalidades Disponíveis</h3>
+            </div>
+            <div class="highlight-card-body">
+              <div class="modality-item">
+                <div class="modality-icon">📚</div>
+                <div class="modality-info">
+                  <h4 class="modality-name">Reforço Escolar</h4>
+                  <p class="modality-desc">Acompanhamento do conteúdo da escola</p>
+                </div>
+              </div>
+              <div class="modality-item">
+                <div class="modality-icon">🎯</div>
+                <div class="modality-info">
+                  <h4 class="modality-name">Preparação para Provas</h4>
+                  <p class="modality-desc">Foco em exames e avaliações específicas</p>
+                </div>
+              </div>
+              <div class="modality-item">
+                <div class="modality-icon">🚀</div>
+                <div class="modality-info">
+                  <h4 class="modality-name">Avanço Acadêmico</h4>
+                  <p class="modality-desc">Estudo além do currículo escolar</p>
+                </div>
+              </div>
+            </div>
+            <div class="highlight-card-footer">
+              <a href="#contato" class="btn-private-cta">
+                Agendar uma aula experimental
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Seção de Valores -->
+      <div class="row mt-5">
+        <div class="col-lg-8 mx-auto">
+          <div class="pricing-section">
+            <div class="pricing-card">
+              <div class="pricing-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="1" x2="12" y2="23" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="pricing-title">Valores</h3>
+              <p class="pricing-description">
+                Os valores das aulas particulares são personalizados de acordo com a modalidade escolhida, 
+                frequência e necessidades específicas de cada aluno.
+              </p>
+              <div class="pricing-cta">
+                <a href="#contato" class="btn-pricing">
+                  Consultar valores com o professor
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="pricing-note">
+                <p>Entre em contato para receber uma proposta personalizada que se adapte ao seu orçamento e objetivos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CURSO DE MATEMÁTICA GERAL -->
+<section class="container py-5" id="curso">
+  <div class="section-divider"></div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Curso de Matemática Geral</h2>
+        <p class="course-subtitle">Formação completa e estruturada em matemática fundamental</p>
+      </div>
+
+      <div class="row g-5">
+        
+        <!-- Informações do Curso -->
+        <div class="col-lg-8">
+          <div class="course-info-card">
+            <h3 class="course-info-title">Sobre o Curso</h3>
+            <p class="course-info-text">
+              Um curso completo que cobre os fundamentos essenciais da matemática, desde os conceitos 
+              básicos até tópicos avançados, sempre com uma abordagem que une rigor técnico, 
+              contextualização histórica e formação de valores.
+            </p>
+
+            <div class="course-stats mt-4">
+              <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Horas de conteúdo</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Módulos completos</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Acesso ilimitado</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conteúdo Programático -->
+          <div class="course-content-card mt-4">
+            <h3 class="course-content-title">Conteúdo Programático</h3>
+            <div class="course-modules">
+              <div class="module-item">
+                <div class="module-number">01</div>
+                <div class="module-content">
+                  <h4 class="module-title">Fundamentos da Aritmética</h4>
+                  <p class="module-desc">Operações básicas, frações, decimais e porcentagens</p>
+                </div>
+              </div>
+              <div class="module-item">
+                <div class="module-number">02</div>
+                <div class="module-content">
+                  <h4 class="module-title">Álgebra Básica</h4>
+                  <p class="module-desc">Equações, inequações e sistemas de equações</p>
+                </div>
+              </div>
+              <div class="module-item">
+                <div class="module-number">03</div>
+                <div class="module-content">
+                  <h4 class="module-title">Geometria</h4>
+                  <p class="module-desc">Formas geométricas, áreas, volumes e trigonometria</p>
+                </div>
+              </div>
+              <div class="module-item">
+                <div class="module-content">
+                  <h4 class="module-title">E muito mais...</h4>
+                  <p class="module-desc">Conteúdo completo e atualizado</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card de Destaque -->
+        <div class="col-lg-4">
+          <div class="course-highlight-card">
+            <div class="course-badge">Mais Popular</div>
+            <h3 class="course-highlight-title">O que você vai aprender</h3>
+            <ul class="course-features">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Conceitos fundamentais</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Demonstrações rigorosas</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Exercícios práticos</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Material complementar</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Certificado de conclusão</span>
+              </li>
+            </ul>
+            <div class="course-cta-wrapper">
+              <a href="#contato" class="btn-course-cta">
+                Quero me inscrever
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BÔNUS -->
+<section class="container py-5" id="bonus">
+  <div class="section-divider"></div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Bônus Exclusivos</h2>
+        <p class="bonus-subtitle">Materiais extras e recursos complementares incluídos</p>
+      </div>
+
+      <!-- Bônus Principal: Planejamento de Estudos 3 em 1 -->
+      <div class="row mb-5">
+        <div class="col-12">
+          <div class="bonus-featured-card">
+            <div class="bonus-featured-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>Bônus Exclusivo</span>
+            </div>
+            
+            <div class="row align-items-center">
+              <div class="col-lg-8">
+                <div class="bonus-featured-content">
+                  <h3 class="bonus-featured-title">Planejamento de Estudos 3 em 1</h3>
+                  <p class="bonus-featured-subtitle">Estudo dos conteúdos de ensino médio (3 anos) em apenas um ano</p>
+                  <p class="bonus-featured-description">
+                    Um planejamento estratégico e completo que permite estudar todo o conteúdo do ensino médio 
+                    de forma eficiente e organizada, condensando três anos de estudos em um único ano. 
+                    Ideal para quem busca uma preparação intensiva e focada.
+                  </p>
+                  
+                  <div class="bonus-featured-parts">
+                    <div class="bonus-part-item">
+                      <div class="part-number">01</div>
+                      <div class="part-content">
+                        <h4 class="part-title">Parte Um do Planejamento</h4>
+                        <p class="part-desc">Primeira etapa do planejamento estratégico</p>
+                        <a href="https://www.instagram.com/p/CVieBTbL5L6/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="part-link">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-linecap="round" stroke-linejoin="round"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          Ver no Instagram
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div class="bonus-part-item">
+                      <div class="part-number">02</div>
+                      <div class="part-content">
+                        <h4 class="part-title">Parte Dois do Planejamento</h4>
+                        <p class="part-desc">Segunda etapa do planejamento estratégico</p>
+                        <a href="https://www.instagram.com/p/CWGZbnGA6XB/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="part-link">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-linecap="round" stroke-linejoin="round"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          Ver no Instagram
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-4 text-center">
+                <div class="bonus-featured-visual">
+                  <div class="bonus-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2L2 7l10 5 10-5-10-5z" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="bonus-visual-text">
+                    <div class="visual-number">3</div>
+                    <div class="visual-label">em</div>
+                    <div class="visual-number">1</div>
+                  </div>
+                  <p class="visual-desc">Anos de conteúdo em um ano</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Final -->
+      <div class="bonus-cta-section mt-5">
+        <div class="bonus-cta-card">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h3 class="bonus-cta-title">Todos os bônus incluídos</h3>
+              <p class="bonus-cta-text">
+                Ao se inscrever, você recebe acesso completo a todos os materiais e recursos 
+                complementares, sem custos adicionais.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+              <a href="#contato" class="btn-bonus-cta">
+                Quero começar agora
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="container py-5" id="depoimentos">
+  <div class="section-divider"></div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-11">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Depoimentos</h2>
+        <p class="testimonials-subtitle">O que alunos e famílias dizem sobre o trabalho</p>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- Depoimento 1 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal1">
+              <img 
+                src="./assets/imgs/depoimento 1.jpg" 
+                alt="Mensagem de depoimento"
+                class="testimonial-preview-image"
+              />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 2 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal2">
+              <img 
+                src="./assets/imgs/depoimento 2.jpg" 
+                alt="Mensagem de depoimento"
+                class="testimonial-preview-image"
+              />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal3">
+              <img 
+                src="./assets/imgs/depoimento 3.jpg" 
+                alt="Mensagem de depoimento"
+                class="testimonial-preview-image"
+              />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 4 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal4">
+              <img 
+                src="./assets/imgs/depoimento 4.jpg" 
+                alt="Mensagem de depoimento"
+                class="testimonial-preview-image"
+              />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 5 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal5">
+                <img 
+                  src="./assets/imgs/depoimento 5.jpg" 
+                  alt="Depoimento 5"
+                  class="testimonial-preview-image"
+                />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 6 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal6">
+                <img 
+                  src="./assets/imgs/depoimento 6.jpg" 
+                  alt="Depoimento 6"
+                  class="testimonial-preview-image"
+                />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 7 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal7">
+                <img 
+                  src="./assets/imgs/depoimento 7.jpg" 
+                  alt="Depoimento 7"
+                  class="testimonial-preview-image"
+                />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 8 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal8">
+                <img 
+                  src="./assets/imgs/depoimento 8.jpg" 
+                  alt="Depoimento 8"
+                  class="testimonial-preview-image"
+                />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 9 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal9">
+                <img 
+                  src="./assets/imgs/depoimento 9.jpg" 
+                  alt="Depoimento 9"
+                  class="testimonial-preview-image"
+                />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 10 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal10">
+                <img 
+                  src="./assets/imgs/depoimento 10.jpg" 
+                  alt="Depoimento 10"
+                  class="testimonial-preview-image"
+                />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 11 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="testimonial-card testimonial-message-card">
+            <div class="testimonial-preview-wrapper" data-bs-toggle="modal" data-bs-target="#testimonialModal11">
+                <img 
+                  src="./assets/imgs/depoimento 11.jpg" 
+                  alt="Depoimento 11"
+                  class="testimonial-preview-image"
+                />
+              <div class="message-overlay">
+                <div class="message-overlay-content">
+                  <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    <path d="M15 10l-5 5m0-5l5 5"></path>
+                  </svg>
+                  <span class="expand-text">Clique para ver mensagem completa</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-message-footer">
+              <div class="message-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Mensagem Real
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modais para Visualização de Imagens -->
+<!-- Modal 1 -->
+<div class="modal fade" id="testimonialModal1" tabindex="-1" aria-labelledby="testimonialModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal1Label">Depoimento 1</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 1.jpg" 
+          alt="Depoimento completo 1"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="testimonialModal2" tabindex="-1" aria-labelledby="testimonialModal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal2Label">Depoimento 2</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 2.jpg" 
+          alt="Depoimento completo 2"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="testimonialModal3" tabindex="-1" aria-labelledby="testimonialModal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal3Label">Depoimento 3</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 3.jpg" 
+          alt="Depoimento completo 3"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="testimonialModal4" tabindex="-1" aria-labelledby="testimonialModal4Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal4Label">Depoimento 4</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 4.jpg" 
+          alt="Depoimento completo 4"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="testimonialModal5" tabindex="-1" aria-labelledby="testimonialModal5Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal5Label">Depoimento 5</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 5.jpg" 
+          alt="Depoimento completo 5"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="modal fade" id="testimonialModal6" tabindex="-1" aria-labelledby="testimonialModal6Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal6Label">Depoimento 6</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 6.jpg" 
+          alt="Depoimento completo 6"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 7 -->
+<div class="modal fade" id="testimonialModal7" tabindex="-1" aria-labelledby="testimonialModal7Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal7Label">Depoimento 7</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 7.jpg" 
+          alt="Depoimento completo 7"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 8 -->
+<div class="modal fade" id="testimonialModal8" tabindex="-1" aria-labelledby="testimonialModal8Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal8Label">Depoimento 8</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 8.jpg" 
+          alt="Depoimento completo 8"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 9 -->
+<div class="modal fade" id="testimonialModal9" tabindex="-1" aria-labelledby="testimonialModal9Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal9Label">Depoimento 9</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 9.jpg" 
+          alt="Depoimento completo 9"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 10 -->
+<div class="modal fade" id="testimonialModal10" tabindex="-1" aria-labelledby="testimonialModal10Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal10Label">Depoimento 10</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 10.jpg" 
+          alt="Depoimento completo 10"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 11 -->
+<div class="modal fade" id="testimonialModal11" tabindex="-1" aria-labelledby="testimonialModal11Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content testimonial-modal-content">
+      <div class="modal-header testimonial-modal-header">
+        <h5 class="modal-title" id="testimonialModal11Label">Depoimento 11</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body testimonial-modal-body">
+        <img 
+          src="./assets/imgs/depoimento 11.jpg" 
+          alt="Depoimento completo 11"
+          class="testimonial-modal-image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section class="container py-5" id="faq">
+  <div class="section-divider"></div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-md-11">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <p class="faq-subtitle">Encontre respostas para as dúvidas mais comuns</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="accordion faq-accordion" id="faqAccordion">
+          
+          <!-- Pergunta 1 -->
+          <div class="faq-item">
+            <h2 class="accordion-header">
+              <button 
+                class="accordion-button faq-button" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#faq1"
+                aria-expanded="true"
+                aria-controls="faq1"
+              >
+                <span class="faq-icon">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span class="faq-question">Como funcionam as aulas?</span>
+              </button>
+            </h2>
+            <div 
+              id="faq1" 
+              class="accordion-collapse collapse show" 
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body faq-answer">
+                <p class="faq-answer-intro">Na parte mais teórica, buscamos fazer com que as aulas cumpram duas finalidades, que os alunos:</p>
+                
+                <ol class="faq-numbered-list">
+                  <li>Saibam realizar demonstrações matemáticas;</li>
+                  <li>Saibam técnicas de resolução de problemas do nível das olimpíadas matemáticas.</li>
+                </ol>
+
+                <p class="faq-answer-text">Sempre é levado em conta a idade e o nível do conhecimento dos alunos para a preparação das aulas.</p>
+
+                <p class="faq-answer-subtitle">As aulas possuem a seguinte estrutura:</p>
+
+                <ol class="faq-numbered-list">
+                  <li><strong>Conteúdo a ser ensinado</strong>, utilizando - com certa frequência - histórias do cotidiano ou da literatura universal;</li>
+                  <li><strong>Exercícios a serem resolvidos em conjunto</strong> com o professor;</li>
+                  <li><strong>Exercícios para o aluno raciocinar sozinho</strong>, com um auxílio mais distante do professor;</li>
+                  <li><strong>Lição de casa</strong> com um ou dois desafios que conectem o conteúdo da aula atual com a próxima aula e também para que os alunos expliquem como resolveram os desafios.</li>
+                </ol>
+
+                <p class="faq-answer-subtitle">Desse modo, os alunos poderão:</p>
+
+                <ul class="faq-bullet-list">
+                  <li>Desenvolver um raciocínio mais apurado;</li>
+                  <li>Aprender formas de resolverem situações problema;</li>
+                  <li>Se expressarem de maneira mais clara;</li>
+                  <li>Terem contato com a matemática em diversas situações do dia a dia através de histórias.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pergunta 2 -->
+          <div class="faq-item">
+            <h2 class="accordion-header">
+              <button 
+                class="accordion-button faq-button collapsed" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#faq2"
+                aria-expanded="false"
+                aria-controls="faq2"
+              >
+                <span class="faq-icon">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span class="faq-question">Como posso pagar pelas aulas?</span>
+              </button>
+            </h2>
+            <div 
+              id="faq2" 
+              class="accordion-collapse collapse" 
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body faq-answer">
+                <p class="faq-answer-text">Via <strong>PIX/TED</strong> ou <strong>cartão</strong>.</p>
+                <p class="faq-answer-note">Para pagamento no cartão, acréscimo de 8% no valor final.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="container py-5" id="contato">
+  <div class="section-divider"></div>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Entre em contato</h2>
+        <p class="contact-subtitle">Preencha o formulário abaixo e envie sua solicitação diretamente pelo WhatsApp</p>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <label for="nome" class="form-label-custom">Nome completo *</label>
+            <input 
+              type="text" 
+              id="nome" 
+              name="nome" 
+              class="form-control-custom" 
+              placeholder="Seu nome completo"
+              required 
+            />
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <label for="telefone" class="form-label-custom">Telefone/WhatsApp *</label>
+            <input 
+              type="tel" 
+              id="telefone" 
+              name="telefone" 
+              class="form-control-custom" 
+              placeholder="(00) 00000-0000"
+              required 
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <label for="email" class="form-label-custom">E-mail</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              class="form-control-custom" 
+              placeholder="seu@email.com"
+            />
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <label for="servico" class="form-label-custom">Tipo de serviço *</label>
+            <select id="servico" name="servico" class="form-control-custom" required>
+              <option value="">Selecione uma opção</option>
+              <option value="Aulas Particulares">Aulas Particulares</option>
+              <option value="Curso de Matemática Geral">Curso de Matemática Geral</option>
+              <option value="Outro">Outro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label for="mensagem" class="form-label-custom">Mensagem *</label>
+          <textarea 
+            id="mensagem" 
+            name="mensagem" 
+            class="form-control-custom" 
+            rows="5" 
+            placeholder="Conte-me sobre suas necessidades, objetivos ou dúvidas..."
+            required
+          ></textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn-whatsapp" id="btnWhatsApp">
+            <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+            Enviar solicitação via WhatsApp
+          </button>
+          <p class="form-note mt-3">* Campos obrigatórios</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- Coluna 1: Sobre -->
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-section">
+          <div class="footer-logo-wrapper">
+            <img src="./assets/imgs/FavICON.png" alt="Gabriel Fanchini" class="footer-logo" />
+            <h3 class="footer-brand">Gabriel Fanchini</h3>
+          </div>
+          <p class="footer-description">
+            Professor de Matemática dedicado a formar alunos e famílias através de uma abordagem 
+            que une tradição, rigor matemático e virtudes cristãs.
+          </p>
+        </div>
+      </div>
+
+      <!-- Coluna 2: Links Rápidos -->
+      <div class="col-lg-2 col-md-6">
+        <div class="footer-section">
+          <h4 class="footer-title">Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#metodo">Método</a></li>
+            <li><a href="#particulares">Aulas Particulares</a></li>
+            <li><a href="#curso">Curso</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Coluna 3: Contato -->
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-section">
+          <h4 class="footer-title">Contato</h4>
+          <ul class="footer-contact">
+            <li>
+              <a href="https://wa.me/5511953117226" target="_blank" rel="noopener noreferrer" class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.763.372-.248.297-.945.923-.945 2.256 0 1.333.972 2.617 1.108 2.797.136.18 1.916 2.915 4.644 4.086.649.288 1.156.46 1.55.587.622.203 1.188.174 1.632.105.478-.074 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                <span>WhatsApp</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contato" class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M22 6l-10 7L2 6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Formulário de Contato</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Coluna 4: Redes Sociais -->
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-section">
+          <h4 class="footer-title">Redes Sociais</h4>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/gabriel.fanchini/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/@Prof.Gabriel_Fanchini" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" stroke-linecap="round" stroke-linejoin="round"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="https://gabrielfanchini.substack.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Substack">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 6h16M4 12h16M4 18h7" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="17" cy="18" r="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Linha Divisória -->
+    <div class="footer-divider"></div>
+
+    <!-- Rodapé Inferior -->
+    <div class="footer-bottom">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="footer-copyright">
+            © <span id="currentYear"></span> Gabriel Fanchini. Todos os direitos reservados.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="footer-credits">
+            Desenvolvido por 
+            <a href="https://www.instagram.com/brianws2/" target="_blank" rel="noopener noreferrer" class="credits-link">
+              WoodCompany
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/javascript/main.js"></script>
+</body>
+</html>
